@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    font-size: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6347; /* Couleur pour l'effet hover */
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+a :hover{
+    color: #ff6347;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-bar button {
+    padding: 8px 16px;
+    margin-left: 10px;
+    border: none;
+    background-color: #ff6347;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #ff4500; /* Couleur plus foncée au survol */
+}
+h2{
+    color: #ff4500;
+    font-weight: bolder;
+    text-align: center;
+}
+img{
+    margin-left: 2px;
+}
+hr{
+    color: #ff4500;
+    border: 1px solid #ff4500;
+}
